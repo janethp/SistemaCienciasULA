@@ -1,0 +1,78 @@
+body
+{background:url(images/hola.png) repeat-x top #fff;padding:0;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;margin:0px auto auto auto;color:#416271}
+p{text-align:justify;line-height:14px;margin:0px}
+span{color:#7cb805}
+a{text-decoration:none;color:#416271}
+h1{width:225px;margin:0 0 5px 0;font-family:Arial, Helvetica, sans-serif;font-size:20px;color:#8c847a;padding:5px 0 3px 0;border-bottom:1px #CCCCCC dashed}
+
+#main_container{width:900px;height:auto;margin:auto;padding:0px;position:relative}
+.main_content{width:700px;height:auto;margin:auto}
+.parrot{position:absolute;top:0px;left:45px}
+
+#header{width:700px;height:135px;margin:auto}
+.logo{padding:10px 0 0 10px}
+.top_center_box{width:700px;height:19px;background:url(images/top_box.gif) no-repeat center}
+.center_box{width:700px;background-color:#FFFFFF}
+
+/*---------------- menu tab----------------------*/
+#menu_tab{width:663px;height:50px;font-family:Arial, Helvetica, sans-serif;padding:0px;margin:auto;background:url(images/menu_bg.gif) no-repeat center}
+ul.menu{list-style-type:none; display:block; width:1000px; 
+margin:auto; padding:0px; background:none}
+ul.menu li{display:inline;font-size:13px;font-weight:bold;line-height:51px}
+ul.menu li.divider{display:block;float:left;width:1px;height:51px;padding:0px ;margin:0px;background:url(images/divider.gif) no-repeat center}
+a.nav:link, a.nav:visited{display:block; float:left; padding:0px; margin:0;width:auto; margin:0px 14px 0px 14px; text-align:center;text-decoration:none; background:none; color:#62584d}
+a.nav_selected:link, a.nav_selected:visited{display:block; float:left; padding:0px; margin:0;width:auto;margin:0px 14px 0px 14px;text-align:center;text-decoration:none; color:#62584d; background:url(images/menu_arrow.gif) no-repeat top center}
+a.nav:hover{color:#62584d; text-decoration:none;background:url(images/menu_arrow.gif) no-repeat top center}
+
+
+/*---------------middle_box-----------------*/
+.middle_box{width:654px;height:161px;background:url(images/4.jpg )no-repeat center;margin:10px auto }
+.middle_box_text_content{width:335px;height:auto}
+.middle_box_title{width:260px;height:63px;padding:5px;background:url() no-repeat center}
+p.middle_text{padding:0 0 0 15px}
+
+/*----------------left_content------------*/
+
+.calendar_box{ width:329px;height:185px;padding:0px; margin:auto; background:url(images/calendar_bg.gif) }
+
+.calendar_box_content{width:250px;padding-left:60px}
+
+.news_left{padding:1px 0 0 10px}
+
+
+.news_box{padding:25px 50 25px 80}
+
+.news_content{width:270px;float:center;padding:0 0 0 10px}
+.calendar{width:42px;height:47px;float:left;background:url(images/calendar_icon.gif) no-repeat center;text-align:center;line-height:47px;font-size:14px;font-weight:bold;color:#5d2c1a}
+
+/*-----------------------contact_form-------------------*/
+#contact_form{width:300px;height:auto;padding:10px 0 0 20px}
+.form_row{float:left;padding:8px 0 8px 0}
+label{width:55px;float:left;padding:3px 5px 0 0;color:#8ebb41;text-align:right}
+input.contact_input{width:225px;height:18px;float:left;border:1px #d1e0ee solid;background-color:#eef4d7;color:#000}
+textarea.contact_textarea{width:225px;height:80px;float:left;border:1px #d1e0ee solid;background-color:#eef4d7;color:#000}
+
+/*----------------------services-------------------------*/
+.services{float:left}
+.services ul{list-style:none;padding:15px 10px 5px 0;margin:0px}
+.services ul li{padding:5px}
+
+
+/*--------------------footer--------------------*/
+#footer{width:680px;height:16px;clear:both;color:#416271;padding:30px 0 0 20px;background:url() no-repeat center}
+#footer a{color:#763c26;text-decoration:underline}
+.fleft{float:left}
+.fright{float:right}
+.fcenter{float:none;text-align:center}
+
+
+.resul_ok {
+	background: none repeat scroll 0 0 #e9bb7b;
+	border-radius: 20px 20px 20px 20px;
+	color: white;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+
